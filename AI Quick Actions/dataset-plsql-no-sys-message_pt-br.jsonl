@@ -1,0 +1,228 @@
+{"prompt": "<s>[INST] Como se faz um SELECT em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT DISTINCT em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DISTINCT column1, column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT DISTINCT em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DISTINCT column1, column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com uma condição em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com uma condição em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com ORDER BY em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name ORDER BY column1 ASC|DESC;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com ORDER BY em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name ORDER BY column1 ASC|DESC;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com GROUP BY em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com GROUP BY em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com HAVING em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1 HAVING condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com HAVING em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1 HAVING condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com LIMIT em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name LIMIT number;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um SELECT com ROWNUM em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table_name WHERE ROWNUM <= number;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INNER JOIN em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 INNER JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INNER JOIN em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 INNER JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um LEFT JOIN em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 LEFT JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um LEFT JOIN em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 LEFT JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um RIGHT JOIN em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 RIGHT JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um RIGHT JOIN em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 RIGHT JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um FULL OUTER JOIN em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 FULL OUTER JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um FULL OUTER JOIN em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 FULL OUTER JOIN table2 ON table1.column = table2.column;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um CROSS JOIN em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 CROSS JOIN table2;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um CROSS JOIN em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1, column2 FROM table1 CROSS JOIN table2;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INSERT em SQL? [/INST]", "completion": "Se faz da seguinte forma: INSERT INTO table_name (column1, column2) VALUES (value1, value2);", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INSERT em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: INSERT INTO table_name (column1, column2) VALUES (value1, value2);", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INSERT SELECT em SQL? [/INST]", "completion": "Se faz da seguinte forma: INSERT INTO table_name (column1, column2) SELECT column1, column2 FROM another_table WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um INSERT SELECT em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: INSERT INTO table_name (column1, column2) SELECT column1, column2 FROM another_table WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um UPDATE em SQL? [/INST]", "completion": "Se faz da seguinte forma: UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um UPDATE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um DELETE em SQL? [/INST]", "completion": "Se faz da seguinte forma: DELETE FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um DELETE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DELETE FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLE table_name (column1 datatype, column2 datatype, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLE table_name (column1 datatype, column2 datatype, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se agrega uma coluna a uma tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name ADD column_name datatype;", "category": "math"}
+{"prompt": "<s>[INST] Como se agrega uma coluna a uma tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name ADD column_name datatype;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma coluna de uma tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name DROP COLUMN column_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma coluna de uma tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name DROP COLUMN column_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se modifica uma coluna de uma tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name MODIFY column_name datatype;", "category": "math"}
+{"prompt": "<s>[INST] Como se modifica uma coluna de uma tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLE table_name MODIFY column_name datatype;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP TABLE table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP TABLE table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um índice em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE INDEX index_name ON table_name (column1, column2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um índice em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE INDEX index_name ON table_name (column1, column2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina um índice em SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP INDEX index_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina um índice em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP INDEX index_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma view em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE VIEW view_name AS SELECT column1, column2 FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma view em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE VIEW view_name AS SELECT column1, column2 FROM table_name WHERE condition;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma view em SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP VIEW view_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma view em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP VIEW view_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um stored procedure em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PROCEDURE procedure_name (parameter1 datatype, parameter2 datatype, ...) BEGIN /* procedure body / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um stored procedure em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PROCEDURE procedure_name (parameter1 datatype, parameter2 datatype, ...) AS BEGIN / procedure body / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se executa um stored procedure em SQL? [/INST]", "completion": "Se faz da seguinte forma: EXECUTE procedure_name (argument1, argument2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se executa um stored procedure em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: EXECUTE procedure_name (argument1, argument2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma função em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE FUNCTION function_name (parameter1 datatype, parameter2 datatype, ...) RETURNS datatype BEGIN / function body / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma função em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE FUNCTION function_name (parameter1 datatype, parameter2 datatype, ...) RETURN datatype IS BEGIN / function body / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se chama uma função em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT function_name(argument1, argument2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se chama uma função em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT function_name(argument1, argument2, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um trigger em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TRIGGER trigger_name trigger_time trigger_event ON table_name FOR EACH ROW BEGIN / trigger body / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um trigger em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TRIGGER trigger_name trigger_time trigger_event ON table_name FOR EACH ROW BEGIN / trigger body */ END;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma sequencia em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE SEQUENCE sequence_name START WITH value INCREMENT BY value;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma sequencia em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE SEQUENCE sequence_name START WITH value INCREMENT BY value;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor seguinte de uma sequencia em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT sequence_name.NEXTVAL FROM DUAL;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor seguinte de uma sequencia em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT sequence_name.NEXTVAL FROM DUAL;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um commit em SQL? [/INST]", "completion": "Se faz da seguinte forma: COMMIT;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um commit em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: COMMIT;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um rollback em SQL? [/INST]", "completion": "Se faz da seguinte forma: ROLLBACK;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um rollback em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ROLLBACK;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um savepoint em SQL? [/INST]", "completion": "Se faz da seguinte forma: SAVEPOINT savepoint_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um savepoint em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SAVEPOINT savepoint_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um rollback a um savepoint em SQL? [/INST]", "completion": "Se faz da seguinte forma: ROLLBACK TO SAVEPOINT savepoint_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um rollback a um savepoint em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ROLLBACK TO SAVEPOINT savepoint_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se garante um privilegio em SQL? [/INST]", "completion": "Se faz da seguinte forma: GRANT privilege ON object TO user;", "category": "math"}
+{"prompt": "<s>[INST] Como se garante um privilegio em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: GRANT privilege ON object TO user;", "category": "math"}
+{"prompt": "<s>[INST] Como se revoga um privilegio em SQL? [/INST]", "completion": "Se faz da seguinte forma: REVOKE privilege ON object FROM user;", "category": "math"}
+{"prompt": "<s>[INST] Como se revoga um privilegio em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: REVOKE privilege ON object FROM user;", "category": "math"}
+{"prompt": "<s>[INST] Como se concatena colunas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1 || column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se concatena colunas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column1 || column2 FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem uma substring em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT SUBSTR(column, start, length) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem uma substring em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT SUBSTR(column, start, length) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a longitude de uma string em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LENGTH(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a longitude de uma string em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LENGTH(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a maiúsculas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT UPPER(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a maiúsculas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT UPPER(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a minúsculas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LOWER(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a minúsculas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LOWER(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina os espaços em branco no início e no final final de uma string em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TRIM(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina os espaços em branco no início e no final final de uma string em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TRIM(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como substituir uma substring por otra em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REPLACE(column, old_string, new_string) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como substituir uma substring por otra em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REPLACE(column, old_string, new_string) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma tabela com tipos de dados específicos em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLE table_name (column1 INT, column2 VARCHAR(50), column3 DATE, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma tabela com tipos de dados específicos em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLE table_name (column1 NUMBER, column2 VARCHAR2(50), column3 DATE, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma data a uma string com um formato específico em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TO_CHAR(column, 'format') FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma data a uma string com um formato específico em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TO_CHAR(column, 'format') FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a uma data em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TO_DATE(column, 'format') FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se converte uma string a uma data em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TO_DATE(column, 'format') FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se trunca um número em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TRUNC(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se trunca um número em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT TRUNC(column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como arredondar um número em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT ROUND(column, decimal_places) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como arredondar um número em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT ROUND(column, decimal_places) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o resto de uma divisão em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT MOD(column, divisor) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o resto de uma divisão em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT MOD(column, divisor) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um cast em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CAST(column AS datatype) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se faz um cast em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CAST(column AS datatype) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o número de linha em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT ROW_NUMBER() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o número de linha em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT ROW_NUMBER() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa de uma linha em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa de uma linha em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa densa de uma linha em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DENSE_RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa densa de uma linha em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DENSE_RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se divide um conjunto de linhas em um número especificado de grupos em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NTILE(number) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se divide um conjunto de linhas em um número especificado de grupos em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NTILE(number) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor de uma coluna da linha seguinte em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LEAD(column, offset) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor de uma coluna da linha seguinte em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LEAD(column, offset) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor de uma coluna da linha anterior em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LAG(column, offset) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor de uma coluna da linha anterior em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LAG(column, offset) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o primeiro valor de um conjunto de linhas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT FIRST_VALUE(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o primeiro valor de um conjunto de linhas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT FIRST_VALUE(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o último valor de um conjunto de linhas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LAST_VALUE(column) OVER (ORDER BY column RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o último valor de um conjunto de linhas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LAST_VALUE(column) OVER (ORDER BY column RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o enésimo valor de um conjunto de linhas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NTH_VALUE(column, n) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o enésimo valor de um conjunto de linhas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NTH_VALUE(column, n) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a proporção de uma coluna em relação com a soma total em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT RATIO_TO_REPORT(column) OVER () FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a proporção de uma coluna em relação com a soma total em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT RATIO_TO_REPORT(column) OVER () FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa percentil de uma linha em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT PERCENT_RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a faixa percentil de uma linha em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT PERCENT_RANK() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a distribução acumulativa de uma linha em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CUME_DIST() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem a distribução acumulativa de uma linha em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CUME_DIST() OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o primeiro valor no nulo de um conjunto de colunas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT COALESCE(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o primeiro valor no nulo de um conjunto de colunas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT COALESCE(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se compara dos valores e NULL é retornado se forem iguais em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NULLIF(column1, column2) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se compara dos valores e NULL é retornado se forem iguais em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT NULLIF(column1, column2) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor máximo de um conjunto de colunas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT GREATEST(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor máximo de um conjunto de colunas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT GREATEST(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor mínimo de um conjunto de colunas em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LEAST(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se obtem o valor mínimo de um conjunto de colunas em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LEAST(column1, column2, ...) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se decodifica um valor em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DECODE(column, search1, result1, search2, result2, ..., default) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se decodifica um valor em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT DECODE(column, search1, result1, search2, result2, ..., default) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se realiza uma expressão CASE em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 ... ELSE default END FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se realiza uma expressão CASE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 ... ELSE default END FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula a soma acumulada de uma coluna em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, SUM(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula a soma acumulada de uma coluna em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, SUM(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula a média acumulado de uma coluna em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, AVG(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula a média acumulado de uma coluna em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, AVG(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o valor mínimo acumulado de uma coluna em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, MIN(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o valor mínimo acumulado de uma coluna em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, MIN(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o valor máximo acumulado de uma coluna em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, MAX(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o valor máximo acumulado de uma coluna em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, MAX(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o contagem cumulativa de uma coluna em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, COUNT(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se calcula o contagem cumulativa de uma coluna em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column, COUNT(column) OVER (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se concatenan o valores de uma coluna em uma só string em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LISTAGG(column, delimiter) WITHIN GROUP (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se concatenan o valores de uma coluna em uma só string em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT LISTAGG(column, delimiter) WITHIN GROUP (ORDER BY column) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se verifica se uma coluna coincide com uma expressão regular em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column FROM table_name WHERE REGEXP_LIKE(column, pattern);", "category": "math"}
+{"prompt": "<s>[INST] Como se verifica se uma coluna coincide com uma expressão regular em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT column FROM table_name WHERE REGEXP_LIKE(column, pattern);", "category": "math"}
+{"prompt": "<s>[INST] Como substituir uma substring que coincide com uma expressão regular em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REGEXP_REPLACE(column, pattern, replacement) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como substituir uma substring que coincide com uma expressão regular em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REGEXP_REPLACE(column, pattern, replacement) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como extrair uma substring que coincide com uma expressão regular em SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REGEXP_SUBSTR(column, pattern) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como extrair uma substring que coincide com uma expressão regular em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT REGEXP_SUBSTR(column, pattern) FROM table_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um sinônimo em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE SYNONYM synonym_name FOR object_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um sinônimo em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE SYNONYM synonym_name FOR object_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um pacote em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PACKAGE package_name AS /* package specification / END package_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um pacote em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PACKAGE package_name AS / package specification / END package_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um corpo de pacote em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PACKAGE BODY package_name AS / package body / END package_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um corpo de pacote em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE PACKAGE BODY package_name AS / package body / END package_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo objeto em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS OBJECT (attribute datatype, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo objeto em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS OBJECT (attribute datatype, ...);", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo tabela em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS TABLE OF element_type;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo tabela em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS TABLE OF element_type;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo matriz variável (VARRAY) em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS VARRAY(size) OF element_type;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tipo matriz variável (VARRAY) em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TYPE type_name AS VARRAY(size) OF element_type;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um bloque PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DECLARE / declaration section / BEGIN / executable section / EXCEPTION / exception handling / END;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara uma estrutura IF em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: IF condition THEN / statements / END IF;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara uma estrutura IF-ELSE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: IF condition THEN / statements / ELSE / statements / END IF;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara uma estrutura IF-ELSIF-ELSE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: IF condition THEN / statements / ELSIF condition THEN / statements / ELSE / statements / END IF;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um CASE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CASE selector WHEN value THEN / statements / ELSE / statements / END CASE;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um laço básico em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: LOOP / statements / END LOOP;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um laço WHILE em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: WHILE condition LOOP / statements / END LOOP;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um laço FOR em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: FOR counter IN start..end LOOP / statements / END LOOP;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara um laço FOR sobre um cursor em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: FOR record IN cursor LOOP / statements / END LOOP;", "category": "math"}
+{"prompt": "<s>[INST] Como sair de um laço em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: EXIT;", "category": "math"}
+{"prompt": "<s>[INST] Como sair de um laço bajo uma condição em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: EXIT WHEN condition;", "category": "math"}
+{"prompt": "<s>[INST] Como pular à seguinte iteração de um laço em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CONTINUE;", "category": "math"}
+{"prompt": "<s>[INST] Como pular à seguinte iteração de um laço bajo uma condição em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CONTINUE WHEN condition;", "category": "math"}
+{"prompt": "<s>[INST] Como pular à uma rótulo em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: GOTO label", "category": "math"}
+{"prompt": "<s>[INST] Como se declara uma rótulo em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: <<label>>", "category": "math"}
+{"prompt": "<s>[INST] Como lançar uma exceção em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: RAISE exception;", "category": "math"}
+{"prompt": "<s>[INST] Como lançar uma exceção com uma mensagem personalizada em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: RAISE_APPLICATION_ERROR(error_number, message);", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com uma exceção específica em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: WHEN exception THEN / statements /", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com cualquier exceção em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: WHEN OTHERS THEN / statements */", "category": "math"}
+{"prompt": "<s>[INST] Como se executa uma sentença SQL dinámica em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: EXECUTE IMMEDIATE 'SQL statement';", "category": "math"}
+{"prompt": "<s>[INST] Como se abre um cursor explícito em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: OPEN cursor FOR SELECT ...;", "category": "math"}
+{"prompt": "<s>[INST] Como recuperar dados de um cursor em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: FETCH cursor INTO variables;", "category": "math"}
+{"prompt": "<s>[INST] Como se fecha um cursor em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CLOSE cursor;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara uma transação autônoma em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: PRAGMA AUTONOMOUS_TRANSACTION;", "category": "math"}
+{"prompt": "<s>[INST] Como se asocia uma exceção com um número de erro em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: PRAGMA EXCEPTION_INIT(exception, error_number);", "category": "math"}
+{"prompt": "<s>[INST] Como se especifica que um programa PL/SQL nãp modifica o estado da base de dados em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: PRAGMA RESTRICT_REFERENCES(program, WNDS);", "category": "math"}
+{"prompt": "<s>[INST] Como se especifica que um programa PL/SQL pode ser chamado múltiplas vezes sem efeitos secundarios em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: PRAGMA SERIALLY_REUSABLE;", "category": "math"}
+{"prompt": "<s>[INST] Como se especifica que uma função PL/SQL se pode chamar desde SQL em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: PRAGMA UDF;", "category": "math"}
+{"prompt": "<s>[INST] Como se recuperan múltiplas linhas em uma coleção em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: SELECT INTO collection FROM ...;", "category": "math"}
+{"prompt": "<s>[INST] Como se realiza uma inserção massiva em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: FORALL index IN start..end INSERT INTO ...;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma base de dados em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE DATABASE database_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria uma base de dados em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE DATABASE database_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se abre uma base de dados em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER DATABASE database_name OPEN;", "category": "math"}
+{"prompt": "<s>[INST] Como se abre uma base de dados em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER DATABASE database_name OPEN;", "category": "math"}
+{"prompt": "<s>[INST] Como se fecha uma base de dados em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER DATABASE database_name CLOSE;", "category": "math"}
+{"prompt": "<s>[INST] Como se fecha uma base de dados em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER DATABASE database_name CLOSE;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma base de dados em SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP DATABASE database_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina uma base de dados em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP DATABASE database_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tablespace em SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLESPACE tablespace_name DATAFILE 'file_name' SIZE size;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um tablespace em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE TABLESPACE tablespace_name DATAFILE 'file_name' SIZE size;", "category": "math"}
+{"prompt": "<s>[INST] Como se agrega um datafile a um tablespace em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name ADD DATAFILE 'file_name' SIZE size;", "category": "math"}
+{"prompt": "<s>[INST] Como se agrega um datafile a um tablespace em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name ADD DATAFILE 'file_name' SIZE size;", "category": "math"}
+{"prompt": "<s>[INST] Como fica um tablespace em modo offline em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name OFFLINE;", "category": "math"}
+{"prompt": "<s>[INST] Como fica um tablespace em modo offline em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name OFFLINE;", "category": "math"}
+{"prompt": "<s>[INST] Como fica um tablespace em modo online em SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name ONLINE;", "category": "math"}
+{"prompt": "<s>[INST] Como fica um tablespace em modo online em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: ALTER TABLESPACE tablespace_name ONLINE;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina um tablespace em SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP TABLESPACE tablespace_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se elimina um tablespace em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DROP TABLESPACE tablespace_name;", "category": "math"}
+{"prompt": "<s>[INST] Como se declara variables em SQL? [/INST]", "completion": "Não pode delarar variáveis diretamente em SQL.", "category": "math"}
+{"prompt": "<s>[INST] Como se declara variables em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: DECLARE variable_name datatype;", "category": "math"}
+{"prompt": "<s>[INST] Como se implementa estruturas de controle de fluxo (IF, LOOP) em SQL? [/INST]", "completion": "SQLnão suporta estruturas de controle de fluxo nativamente.", "category": "math"}
+{"prompt": "<s>[INST] Como se implementa estruturas de controle de fluxo (IF, LOOP) em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: IF condition THEN ... ELSE ... END IF; LOOP ... END LOOP;", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com uma exceção em SQL? [/INST]", "completion": "SQL não possui tratamento de exceção nativo.", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com uma exceção em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: EXCEPTION WHEN exception_name THEN ...;", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um stored procedure em SQL? [/INST]", "completion": "SQL não permite a criação de procedimentos armazenados diretamente.", "category": "math"}
+{"prompt": "<s>[INST] Como se cria um stored procedure em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CREATE OR REPLACE PROCEDURE procedure_name IS BEGIN ... END;", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com um cursor em SQL? [/INST]", "completion": "SQL não manipula cursores explicitamente.", "category": "math"}
+{"prompt": "<s>[INST] Como lidar com um cursor em PL/SQL? [/INST]", "completion": "Se faz da seguinte forma: CURSOR cursor_name IS SELECT_statement;", "category": "math"}
